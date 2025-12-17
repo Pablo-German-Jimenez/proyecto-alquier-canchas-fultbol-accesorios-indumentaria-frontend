@@ -1,0 +1,41 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Footer from "./components/shared/Footer";
+import Error404 from "./components/pages/Error404";
+import Inicio from "./components/pages/Inicio";
+import "./styles/inicio.css";
+
+import CatalogoElla from "./components/pages/productos/CatalogoElla";
+import CatalogoHombre from "./components/pages/productos/CatalogoHombre";
+import CatalogoNinios from "./components/pages/productos/CatalogoNinios";
+import CatalogoAccesorio from "./components/pages/productos/CatalogoAccesorio";
+import Administrador from "./components/pages/administrador";
+import MenuNavBar from "./components/shared/MenuNavBar";
+
+
+function App() {
+  return (
+    <BrowserRouter>
+      <main>
+        <MenuNavBar/>
+         <Routes>
+          <Route path="/" element={<Inicio />} />
+          <Route path="*" element={<Error404 />} />
+          <Route path="/productos/catalogoElla" element={<CatalogoElla />} />
+          <Route
+            path="/productos/catalogoHombre"
+            element={<CatalogoHombre />}
+          />
+          <Route
+            path="/productos/catalogoNinios"
+            element={<CatalogoNinios />}
+          />
+          <Route path="/productos/catalogoAccesorio" element={<CatalogoAccesorio />} />
+          <Route path="/admin" element={<Administrador />} />
+        </Routes>
+       </main>
+      <Footer/>
+    </BrowserRouter>
+  );
+}
+
+export default App;
