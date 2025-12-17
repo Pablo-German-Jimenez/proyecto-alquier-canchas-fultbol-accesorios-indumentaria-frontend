@@ -45,7 +45,7 @@ Todo dentro de una experiencia unificada.
 ---
 ## 🔗 Enlaces Útiles  
 
-![GitHub](https://img.shields.io/badge/GitHub-Repo-00BFA6?logo=github&logoColor=white&style=for-the-badge) → [Repositorio en GitHub]([https://github.com/TaliCabana/cancherosfront.git](https://github.com/Pablo-German-Jimenez/proyecto-alquier-canchas-fultbol-accesorios-indumentaria-backend))  
+![GitHub Repositorio BackEnd](https://img.shields.io/badge/GitHub-Repo-00BFA6?logo=github&logoColor=white&style=for-the-badge) → [Repositorio en GitHub](https://github.com/Pablo-German-Jimenez/proyecto-alquier-canchas-fultbol-accesorios-indumentaria-backend)  
 
 ![Netlify](https://img.shields.io/badge/Netlify-Sitio-00BFA6?logo=netlify&logoColor=white&style=for-the-badge) → [Sitio desplegado]()  
 
